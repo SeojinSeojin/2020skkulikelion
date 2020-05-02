@@ -29,4 +29,14 @@ td {
     height: 130px;
     padding: 3px;
     word-break: keep-all;
+    transition: .3s;
+}
+
+td:hover {
+    background-color: green;
+    color: white;
+}
+
+td:active {
+    background-color: goldenrod;
 }
