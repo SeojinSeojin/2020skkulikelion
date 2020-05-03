@@ -1,7 +1,8 @@
 body {
     margin: 0;
     background: linear-gradient(limegreen, rgb(212, 252, 212));
-    height: 700px;
+    background-repeat: no-repeat;
+    height: 725px;
     min-width: 600px;
     font-family: cursive;
 }
@@ -10,8 +11,6 @@ body {
     font-size: 20px;
     margin-bottom: 10px;
     margin: 0px;
-    color: white;
-    text-shadow: rgb(1, 96, 1) 2px 0 4px;
 }
 
 table {
@@ -29,14 +28,17 @@ td {
     height: 130px;
     padding: 3px;
     word-break: keep-all;
-    transition: .3s;
+    transition: 0.3s;
 }
 
-td:hover {
-    background-color: green;
-    color: white;
+.result {
+    position: relative;
+    font-size: 30px;
+    left: 5%;
 }
 
-td:active {
-    background-color: goldenrod;
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
