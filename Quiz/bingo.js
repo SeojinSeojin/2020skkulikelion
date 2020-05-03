@@ -3,7 +3,6 @@ const addListener = () => {
     for (var i = 0; i < tds.length; i++) {
         tds[i].onclick = clicked;
     }
-    document.getElementById("btn__finish").onclick = countBingo;
 };
 
 const clicked = (event) => {
@@ -67,6 +66,7 @@ const countBingo = () => {
 
 const init = () => {
     addListener();
+    setInterval(countBingo, 500);
 };
 
 init();
