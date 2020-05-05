@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+    <script src="http://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<title> 성대 멋사 </title>
+<meta charset=“utf-8”>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<style>
+    body {
+        margin: 0;
+        background-color: wheat;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    h1 {
+        font-size: 45px;
+        font-family: 'Abril Fatface', cursive;
+        text-align: center;
+        border-bottom: 3px solid green;
+        background-color: green;
+        margin: 0;
+        padding: 20px;
+    }
+    ol {
+        border-right: 3px solid blue;
+        width: 100px;
+        margin: 0;
+        padding: 20px;
+    }
+    #grid {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+    }
+    #grid ol {
+        padding-left:33px;
+    }
+    #article {
+        padding-left:25px;
+    }
+    h2 {
+        color: green;
+        font-family: 'Abril Fatface', cursive;
+    }
+    #title {
+        color: wheat;
+    }
+    .panel-footer {
+        background: green;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+    <div class="container-fluid">
+    <h1><a href="index.html" id="title">ㅇㅇㅇ의 자기소개 페이지</a></h1>
+    <div id="grid">
+        <ul class="nav nav-pills">
+            <li role="presentation"><a href="personality.html">이력</a></li>
+            <li role="presentation" class="active"><a href="game.html">플레이한 게임</a></li>
+            <li role="presentation"><a href="number.html">연락처</a></li>
+        </ul>
+        <div id="article">
+            <h2>플레이한 게임</h2>
+            <p>메이플스토리(231레벨)</p>
+            <p>디아블로3(아시아 서버 마법사 997등)</p>
+            <p>오버워치(골드)</p>
+            <p>리그 오브 레전드(실버)</p>
+            <p>전략적 팀 전투(플래티넘)</p>
+            <p>레인보우 식스:시즈(골드)</p>
+            <p>히어로즈 오브 더 스톰(실버)</p>
+            <p>하스스톤(5급)</p>
+            <p>몬스터 헌터:월드(모든 도전과제 달성)</p>
+            <p>세키로(모든 도전과제 달성)</p>
+            <p>다크소울3(모든 보스 격파)</p>
+        </div>
+    </div>
+    <div class="panel-footer" align="center">made by ㅇㅇㅇ<br>멋쟁이사자처럼 8기 운영진</div>
+    </div>
+</body>
+</html>
