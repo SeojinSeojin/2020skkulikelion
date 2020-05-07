@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: wheat;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+h1 {
+    font-size: 45px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    border-bottom: 3px solid green;
+    background-color: green;
+    margin: 0;
+    padding: 20px;
+}
+ol {
+    border-right: 3px solid blue;
+    width: 100px;
+    margin: 0;
+    padding: 20px;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+#grid ol {
+    padding-left:33px;
+}
+#article {
+    padding-left:25px;
+}
+h2 {
+    color: green;
+    font-family: 'Abril Fatface', cursive;
+}
+#title {
+    color: wheat;
+}
+.panel-footer {
+    background: green;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

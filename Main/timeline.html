@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='timeline.css'>
+    <title>timeline</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Dokdo&family=Poor+Story&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id='title'>
+        <h1>나의 일생</h1>
+    </div>
+    <div>
+        <button class="button__change__bg" onclick='
+        document.querySelector("body").style.backgroundImage="url(img/cat.jpg)";
+        document.querySelector("body").style.backgroundRepeat="no-repeat";
+        document.querySelector("body").style.backgroundSize="cover";'>
+        고앵이</button>
+        <button class="button__change__bg" onclick='
+        document.querySelector("body").style.backgroundImage="url(img/dog.jpg)";
+        document.querySelector("body").style.backgroundRepeat="no-repeat";
+        document.querySelector("body").style.backgroundSize="cover";'>
+        갱얼쥐</button>
+    </div>
+    <div class = 'content'>
+        <div class='card'>
+            <img src='img/baby.jpg'>
+            <span class='date'>2000.04.05</span>
+            <div class='what'>탄생</div>
+            <div class='where'>서울특별시</div>
+            <div class='text'>엄마 뱃 속에서 나올 때 중간에 잤다고 한다...</div>
+            <div class='dot'></div>
+        </div>
+        <div class='card'>
+            <img src='img/element.jpg'>
+            <span class='date'>2007~2012</span>
+            <div class='what'>초등학생</div>
+            <div class='where'>서울특별시</div>
+            <div class='text'>내 인생에서 두 번 다시 오지 않을 인싸시기</div>
+            <div class='dot'></div>
+        </div>
+        <div class='card'>
+            <img src='img/middle.jpg'>
+            <span class='date'>2013~2015</span>
+            <div class='what'>중학생</div>
+            <div class='where'>서울특별시</div>
+            <div class='text'>내 암흑기</div>
+            <div class='dot'></div>
+        </div>
+        <div class='card'>
+            <img src='img/high.jpg'>
+            <span class='date'>2016~2018</span>
+            <div class='what'>고등학생</div>
+            <div class='where'>서울특별시</div>
+            <div class='text'>이러면 안되지만... 공부고 뭐고 참 재미있었지</div>
+            <div class='dot'></div>
+        </div>
+        <div class='card'>
+            <img src='img/uni.jpg'>
+            <span class='date'>2019~</span>
+            <div class='what'>대학생</div>
+            <div class='where'>경기도 수원시</div>
+            <div class='text'>내가 이 세계에서는 성대생?!</div>
+            <div class='dot'></div>
+        </div>
+    </div>
+    <div id='line'></div>
+    <button id='button__top' onclick="location.href='#title'">
+        △ top
+    </button>
+</body>
+</html>

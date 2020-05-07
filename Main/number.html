@@ -1,84 +1,36 @@
 <!doctype html>
 <html>
+
 <head>
-    <script src="http://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
-    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <script src="http://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+        crossorigin="anonymous"></script>
+    <meta charset=“utf-8”>
+    <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
-    <!-- 부가적인 테마 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
-    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<title> 성대 멋사 </title>
-<meta charset=“utf-8”>
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-<style>
-    body {
-        margin: 0;
-        background-color: wheat;
-    }
-    a {
-        color: black;
-        text-decoration: none;
-    }
-    h1 {
-        font-size: 45px;
-        font-family: 'Abril Fatface', cursive;
-        text-align: center;
-        border-bottom: 3px solid green;
-        background-color: green;
-        margin: 0;
-        padding: 20px;
-    }
-    ol {
-        border-right: 3px solid blue;
-        width: 100px;
-        margin: 0;
-        padding: 20px;
-    }
-    #grid {
-        display: grid;
-        grid-template-columns: 150px 1fr;
-    }
-    #grid ol {
-        padding-left:33px;
-    }
-    #article {
-        padding-left:25px;
-    }
-    h2 {
-        color: green;
-        font-family: 'Abril Fatface', cursive;
-    }
-    #title {
-        color: wheat;
-    }
-    .panel-footer {
-        background: green;
-        color: white;
-        font-family: 'Abril Fatface', cursive;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
-</style>
+    <link rel="stylesheet" href="style.css">
+    <title> 자기소개 페이지 </title>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="container-fluid">
-    <h1><a href="index.html" id="title">ㅇㅇㅇ의 자기소개 페이지</a></h1>
-    <div id="grid">
-        <ul class="nav nav-pills">
-            <li role="presentation"><a href="personality.html">이력</a></li>
-            <li role="presentation"><a href="game.html">플레이한 게임</a></li>
-            <li role="presentation" class="active"><a href="number.html">연락처</a></li>
-        </ul>
-        <div id="article">
-            <h2>연락처</h2>
-            <p> 전화번호: 0117865456</p>
+        <h1><a href="index.html" id="title">ㅇㅇㅇ의 자기소개 페이지</a></h1>
+        <div id="grid">
+            <ul class="nav nav-pills">
+                <li role="presentation"><a href="personality.html">이력</a></li>
+                <li role="presentation"><a href="game.html">플레이한 게임</a></li>
+                <li role="presentation" class="active"><a href="number.html">연락처</a></li>
+                <li role="presentation"><a href="timeline.html" target="_blank">나의 일생</a></li>
+            </ul>
+            <div id="article">
+                <h2>연락처</h2>
+                <p> 전화번호: 0117865456</p>
+            </div>
         </div>
-    </div>
-    <div class="panel-footer" align="center">made by ㅇㅇㅇ<br>멋쟁이사자처럼 8기 운영진</div>
+        <div class="panel-footer" align="center">made by ㅇㅇㅇ<br>멋쟁이사자처럼 8기 운영진</div>
     </div>
 </body>
+
 </html>
