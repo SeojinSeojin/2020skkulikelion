@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .piccachubox {
+        position: absolute;
+        width: 1000px;
+        height: 500px;
+        top: 50%;
+        left: 50%;
+        margin-top: -250px;
+        margin-left: -500px;
+        background-image: url('lawn.png');
+        background-position: center 105%;
+        background-repeat: no-repeat;
+    }
+
+    .pic {
+        position: relative;
+        margin-top: 100px;
+        margin-left: 350px;
+        width: 300px;
+        height: 300px;
+        z-index: 1;
+        left:0px;
+        top:0px;
+    }
+
+    .controller {
+        position:relative;
+        text-align: center;
+        z-index: 10;
+    }
+
+    .btn {
+        font-size: large;
+        color: white;
+        background-color: gray;
+        padding: 10px 10px;
+    }
+    .day {
+        text-align: center;
+    }
+</style>
+
+<!-- 구현할 것 : (1) 낮, 밤 버튼 누르면 배경화면, 글씨색 바뀜 (2) 가랏!버튼은 피카츄사진이, 돌아와!버튼은 몬스터볼사진으로 변경 (3) 화살표 버튼 누르면 해당 방향으로 10px씩 이동 (단, 이미 지정된 CSS는 수정하지 않는 편을 권함) -->
+
+<body>
+    <div class="piccachubox">
+        <div class="day">
+            <button class="btn">낮</button>
+            <button class="btn">밤</button>이 되었다.
+        </div>
+        <img class="pic" id="piccachu" src="piccachu.png">
+        <div class="controller">
+            <button class="btn">가랏!</button>
+            <button class="btn">돌아와!</button>
+            <button class="btn">◀</button>
+            <button class="btn">▶</button>
+            <button class="btn">▲</button>
+            <button class="btn">▼</button>
+        </div>
+    </div>
+</body>
+
+</html>
